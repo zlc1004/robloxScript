@@ -1,14 +1,20 @@
-function sleep(n)
-  local t = os.clock()
-  while os.clock() - t <= n do
-    -- nothing
-  end
+local function send(text)
+	local StarterGui = game:GetService("StarterGui")
+	StarterGui:SetCore("SendNotification",{
+		Title = "Loading",
+		Text = text,
+		Duration = 5
+	})
 end
 
+send("fling")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/fling.lua"))()
-sleep(1)
+task.wait(1)
+send("aimbot")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/aimbot.lua"))()
-sleep(1)
+task.wait(1)
+send("Vapav2-Arsenal")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/Vapav2-Arsenal.lua"))()
-sleep(1)
+task.wait(1)
+send("esp")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/esp.lua"))()
