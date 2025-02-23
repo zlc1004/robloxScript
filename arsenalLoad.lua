@@ -7,9 +7,6 @@ local function send(text)
 	})
 end
 
-send("fling")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/fling.lua"))()
-task.wait(1)
 send("aimbot")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/aimbot.lua"))()
 task.wait(1)
@@ -18,3 +15,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/
 task.wait(1)
 send("esp")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/esp.lua"))()
+task.wait(1)
+send("loading fling in 5 seconds")
+
+task.wait(5)
+
+send("fling")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/fling.lua"))()
