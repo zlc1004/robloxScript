@@ -4,7 +4,7 @@ local function send(text)
                        {Title = "Loading", Text = text, Duration = 5})
 end
 
--- loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/arsenalLoad.lua",true))()
 
 send("aimbot")
 loadstring(game:HttpGet(
@@ -26,8 +26,15 @@ end)
 
 task.wait(1)
 send("loading fling in 5 seconds")
-
-task.wait(5)
+task.wait(1)
+send("loading fling in 4 seconds")
+task.wait(1)
+send("loading fling in 3 seconds")
+task.wait(1)
+send("loading fling in 2 seconds")
+task.wait(1)
+send("loading fling in 1 seconds")
+task.wait(1)
 
 send("fling")
 task.spawn(function()
