@@ -37,13 +37,11 @@ task.spawn(function()
                    true))()
 end)
 
--- task.wait(1)
+task.wait(1)
 send("Loading InfiniteYield")
 task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/infiniteyield.lua",
-                   true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
-send("arsenalLoadV4 by @lzz228")
+send("arsenalLoadV4.0.1 by @lzz228")
 send("Kobosh Joei Truth On Top")
