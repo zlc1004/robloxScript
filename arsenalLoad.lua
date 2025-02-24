@@ -6,8 +6,6 @@ end
 
 -- loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/arsenalLoad.lua",true))()
 
-send("W hacks by @lzz228")
-
 send("Loading aimbot")
 task.spawn(function()
 
@@ -38,3 +36,7 @@ task.spawn(function()
                    "https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/fling.lua",
                    true))()
 end)
+
+
+send("arsenalLoadV3 by @lzz228")
+send("Kobosh Joei Truth On Top")
