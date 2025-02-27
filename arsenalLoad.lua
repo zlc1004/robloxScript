@@ -6,7 +6,7 @@ end
 
 -- loadstring(game:HttpGet("https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/arsenalLoad.lua",true))()
 
-send("Loading aimbot")
+send("Loading Aimbot")
 task.spawn(function()
 
     loadstring(game:HttpGet(
@@ -30,10 +30,18 @@ task.spawn(function()
                    true))()
 end)
 -- task.wait(1)
-send("Loading fling")
+send("Loading Fling")
 task.spawn(function()
     loadstring(game:HttpGet(
                    "https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/fling.lua",
+                   true))()
+end)
+
+-- task.wait(1)
+send("Loading Click Tp")
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/clickTp.lua",
                    true))()
 end)
 
@@ -43,5 +51,8 @@ task.spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
-send("arsenalLoadV4.0.1 by @lzz228")
-send("Kobosh Joei Truth On Top")
+
+
+task.wait(0.5)
+send("arsenalLoadV5 by @lzz228")
+-- send("Kobosh Joei Truth On Top")
