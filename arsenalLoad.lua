@@ -14,7 +14,7 @@ task.spawn(function()
                    true))()
 end)
 -- task.wait(1)
-send("Loading Vapav2-Arsenal")
+send("Loading Vapav3")
 task.spawn(function()
 
     loadstring(game:HttpGet(
