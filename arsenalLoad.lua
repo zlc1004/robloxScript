@@ -18,7 +18,7 @@ send("Loading Vapav2-Arsenal")
 task.spawn(function()
 
     loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/Vapav2-Arsenal.lua",
+                   "https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/Vapav3.lua",
                    true))()
 end)
 -- task.wait(1)
@@ -54,5 +54,5 @@ end)
 
 
 task.wait(0.5)
-send("arsenalLoadV5 by @lzz228")
+send("arsenalLoadV6 by @lzz228")
 -- send("Kobosh Joei Truth On Top")
