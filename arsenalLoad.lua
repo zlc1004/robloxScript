@@ -16,10 +16,7 @@ end)
 -- task.wait(1)
 send("Loading Vapav3")
 task.spawn(function()
-
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/zlc1004/robloxScript/refs/heads/main/Vapav3.lua",
-                   true))()
+loadstring(game:HttpGet("https://github.com/Nickyangtpe/Vapa-v2/raw/refs/heads/main/Loader.lua", true))()
 end)
 -- task.wait(1)
 send("Loading ESP")
